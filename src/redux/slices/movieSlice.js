@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const fetchMovie = createAsyncThunk('movie/fetchMovie', async (title) => {
+  console.log('API Key:', process.env.REACT_APP_OMDB_API_KEY);
   const response = await axios.get(
     `https://www.omdbapi.com/?t=${title}&apikey=${process.env.REACT_APP_OMDB_API_KEY}`
   );
