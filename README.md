@@ -79,3 +79,6 @@ Ensure you have the following installed on your machine:
 3. Start the development server:
    ```bash
    npm start
+
+## 🌐 Check the Live App  
+[Click here to view the app on Vercel!](https://movinfo-virid.vercel.app/)
