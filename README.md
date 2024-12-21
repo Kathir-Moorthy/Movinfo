@@ -4,13 +4,14 @@ Movinfo is a responsive and visually appealing React.js application designed to 
 
 ---
 
-## 🚀 Key Features
-- 🔍 **Search Movies**: Effortlessly search for movies and fetch detailed information using the OMDB API.
-- 🎨 **Tailwind CSS Styling**: Modern and responsive design for an immersive experience.
-- 🧩 **Redux State Management**: Simplified and efficient management of app-wide state.
-- ⏳ **Lottie Animations**: Elegant loading animations while fetching movie data.
-- 📄 **Movie Info Card**: Displays detailed movie information with a clean, attractive layout.
-- 📱 **Fully Responsive**: Seamlessly adapts to all screen sizes and devices.
+## 🚀 Key Features  
+- 🔍 **Search Movies**: Effortlessly search for movies and fetch detailed information using the OMDB API.  
+- 🎨 **Tailwind CSS Styling**: Modern and responsive design for an immersive experience.  
+- 🧩 **Redux State Management**: Simplified and efficient management of app-wide state.  
+- ⏳ **Lottie Animations**: Elegant loading animations while fetching movie data.  
+- 📄 **Movie Info Card**: Displays detailed movie information with a clean, attractive layout.  
+- 📱 **Fully Responsive**: Seamlessly adapts to all screen sizes and devices.  
+- 📥 **Download Movie Cards**: Save detailed movie info cards as images for offline viewing.  
 
 ---
 
@@ -79,3 +80,6 @@ Ensure you have the following installed on your machine:
 3. Start the development server:
    ```bash
    npm start
+
+## 🌐 Check the Live App  
+[Click here to view the app on Vercel!](https://movinfo-virid.vercel.app/)
