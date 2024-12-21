@@ -19,6 +19,7 @@ const Popup = () => {
             <p className="text-gray-700 mb-2">
               Search for movies to view detailed information.
             </p>
+            <p className="text-gray-700 mb-2">Click the download button to save movie info cards as images!</p>
             <button
               onClick={closePopup}
               className="mt-4 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-all"
